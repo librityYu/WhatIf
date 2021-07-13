@@ -21,7 +21,7 @@ public inline fun <T> T.whatIf(
     } else {
         whatIfNot()
     }
-    return this
+     return this
 }
 
 @JvmSynthetic
