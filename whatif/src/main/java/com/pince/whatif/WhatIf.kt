@@ -5,7 +5,7 @@ package com.pince.whatif
 public inline fun <T> T.whatIf(given: (T) -> Boolean?, whatIf: () -> Unit): T {
     if (given(this) == true) {
         whatIf()
-    }
+     }
     return this
 }
 
