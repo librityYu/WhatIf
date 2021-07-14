@@ -1,4 +1,6 @@
-添加方式：
+<h1 align="center">Whatif</h1>
+
+使用：
 ```gradle
 maven { url 'https://jitpack.io' }
 ````
